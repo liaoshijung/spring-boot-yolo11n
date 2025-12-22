@@ -3,6 +3,8 @@
 负责YOLOv10n模型的加载、预测和管理
 """
 import os
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import cv2
 import numpy as np
 from typing import List, Tuple, Optional, Dict, Any

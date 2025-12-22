@@ -18,6 +18,10 @@ import json
 import shutil
 
 # 导入配置、模型处理器和数据管理器
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from config import DEFAULT_DISHES, DATABASE_CONFIG
 from model_handler import get_model
 from data_manager import get_data_manager
