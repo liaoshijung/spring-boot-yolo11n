@@ -1,27 +1,41 @@
 ```
+# Model files
+*.pt
+
+# Data files
+*.json
+
+# Dependencies
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Logs
 *.log
-*.tmp
-*.swp
-.DS_Store
-Thumbs.db
+
+# Environment
 .env
 .env.local
 *.env.*
+
+# Editors
 .vscode/
 .idea/
-.mypy_cache/
-.pytest_cache/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
 .coverage
 coverage/
 htmlcov/
+
+# Build artifacts
 dist/
 build/
-target/
-node_modules/
-.venv/
-venv/
+*.egg-info/
 ```
