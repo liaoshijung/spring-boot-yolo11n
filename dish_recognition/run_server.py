@@ -2,6 +2,9 @@
 启动脚本
 用于启动食堂菜品识别API服务
 """
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import uvicorn
 from config import API_CONFIG
 
